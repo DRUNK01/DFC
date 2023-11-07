@@ -4,6 +4,7 @@
 pkg update
 pkg install python
 pkg install git
+rm -rf DFC
 git clone https://github.com/DRUNK01/DFC
 cd DFC
 pip install requests
